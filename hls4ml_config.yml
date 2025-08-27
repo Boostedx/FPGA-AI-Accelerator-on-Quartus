@@ -1,0 +1,25 @@
+Backend: Quartus
+ClockPeriod: 50
+HLSConfig:
+  LayerName:
+    conv1:
+      ReuseFactor: 1
+      implementation: BRAM
+    conv2:
+      ReuseFactor: 1
+  Model:
+    Precision: ap_fixed<8,1>
+    ReuseFactor: 1
+    SparseWeights: true
+    Strategy: Resource
+IOType: io_stream
+InputData: null
+KerasModel: !keras_model 'output/fpga_project/keras_model.keras'
+OutputDir: output/fpga_project
+OutputPredictions: null
+Part: 5CSEMA5F31C6
+ProjectName: myproject
+Stamp: 97ee5055
+Version: 1.0.0
+WriterConfig:
+  WriteTar: false

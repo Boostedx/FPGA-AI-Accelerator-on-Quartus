@@ -38,4 +38,3 @@ Cyclone V FPGA (DE1-SoC) testbed
 
 Python (TensorFlow / PyTorch) for model training
 
-📂 Repository Structure
